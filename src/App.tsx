@@ -1,11 +1,12 @@
+import WeatherDemo from "./container/component/card"
 
 
 
-const app = () =>{
+const App = () =>{
   return(
     <>
-    
+<WeatherDemo/>
     </>
   )
 }
-export  default app
+export  default App
